@@ -1,4 +1,4 @@
-name: RDP + Tailscale + RustDesk + (Optional) Chrome Remote Desktop (B)
+ name: RDP + Tailscale + RustDesk + (Optional) Chrome Remote Desktop (B)
 
 on:
   workflow_dispatch:
