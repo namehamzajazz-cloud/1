@@ -3,9 +3,9 @@ name: RDP + Tailscale + RustDesk + (Optional) Chrome Remote Desktop (A)
 on:
   workflow_dispatch:
     inputs:
-      ts_tailnet:         { description: "Tailscale tailnet (e.g. you@gmail.com)", required: true }
-      ts_api_key:         { description: "Tailscale API key (device admin, no Bearer)", required: true }
-      ts_authkey:         { description: "Tailscale Auth key (reusable or ephemeral)", required: true }
+      ts_tailnet:         { description: "Tailscale tailnet (e.g. nikkie_edwards@yahoo.com)", required: true }
+      ts_api_key:         { description: "Tailscale API key (iphone-13.tail91e147.ts.net)", required: true }
+      ts_authkey:         { description: "Tailscale Auth key (https://github.com/maxydog1004/1/edit/main/.github/workflows/rdp-tailscale-rustdesk-A.yml?pr=/namehamzajazz-cloud/1/pull/5)", required: true }
       quick_test:         { description: "Run 5-minute test", type: boolean, default: false }
       runtime_minutes:    { description: "Runtime (max 360; default 355 when not test)", required: false, default: "355" }
       do_purge:           { description: "Purge bullet* devices at start (single instance only)", required: false, default: "true" }
